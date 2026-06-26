@@ -7,6 +7,10 @@
 - pip
 - Minikube or another local Kubernetes environment
 
+## Cookie point: virtual environment benefits
+
+Using a Python virtual environment keeps project dependencies isolated from the system Python, ensures reproducible installs, and avoids conflicts between package versions used by different projects.
+
 ## Local Docker setup
 
 Create the Docker network so Flask and MongoDB can resolve each other by
